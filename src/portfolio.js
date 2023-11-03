@@ -47,13 +47,9 @@ const skillsSection = {
   title: "My skills",
   // subTitle: "Computer Science Student and Software Engineer who wants to make things that make a difference",
   skills: [
-    emoji(
-      "⚡ Develop Frontend of Web Applications using Reactjs"
-    ),
+    emoji("⚡ Develop Frontend of Web Applications using Reactjs"),
     emoji("⚡ Develop backend of Web applications using Flask and PostgreSQL"),
-    emoji(
-      "⚡ Computer Vision Projects using Pytesseract"
-    )
+    emoji("⚡ Computer Vision Projects using Pytesseract")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -101,7 +97,7 @@ const educationInfo = {
       schoolName: "National University of Singapore",
       logo: require("./assets/images/nusLogo.png"),
       subHeader: "Bachelor of Computer Science",
-      duration: "August 2022 - Present",
+      duration: "August 2022 - Present"
       // desc: "Participated in the research of XXX and published 3 papers.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -144,7 +140,7 @@ const workExperiences = {
       date: "Oct 2023 – Present",
       desc: "Personalized education for optimized learning",
       descBullets: [
-        "Used the pytesseract library to extract questions from from scanned pdfs, setting the foundation for student's personalized learning plans.",
+        "Used the pytesseract library to extract questions from from scanned pdfs, setting the foundation for student's personalized learning plans."
       ]
     },
     {
@@ -154,14 +150,14 @@ const workExperiences = {
       date: "Jan 2022 – Feb 2022",
       desc: "Covid travel restrictions tracker",
       descBullets: [
-        "Implemented automated vaccine information updates via the Amadeus API, "
-        + "enhancing search result maintenance efficiency by 50%. This streamlined process "
-        + "allowed the company to promptly deliver accurate travel restrictions updates to "
-        + "users.",
-        "Designed landing page and pop-up with Angular and Bootstrap, increasing email "
-        + "outreach to thousands of frequent travelers."
+        "Implemented automated vaccine information updates via the Amadeus API, " +
+          "enhancing search result maintenance efficiency by 50%. This streamlined process " +
+          "allowed the company to promptly deliver accurate travel restrictions updates to " +
+          "users.",
+        "Designed landing page and pop-up with Angular and Bootstrap, increasing email " +
+          "outreach to thousands of frequent travelers."
       ]
-    },
+    }
     // {
     //   role: "Software Engineer Intern",
     //   company: "Airbnb",
@@ -332,8 +328,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Say hi to me at tsai.ianfourre@u.nus.edu",
+  subtitle: "Say hi to me at tsai.ianfourre@u.nus.edu",
   // number: "+92-0000000000",
   email_address: "tsai.ianfourre@u.nus.edu"
 };
