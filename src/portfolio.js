@@ -10,7 +10,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 800 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -136,7 +136,7 @@ const workExperiences = {
     {
       role: "Data Science Intern",
       company: "Growtrics",
-      companylogo: require("./assets/images/defaultCoLogo.png"),
+      companylogo: require("./assets/images/growtricsLogo.png"),
       date: "Oct 2023 – Present",
       desc: "Personalized education for optimized learning",
       descBullets: [
