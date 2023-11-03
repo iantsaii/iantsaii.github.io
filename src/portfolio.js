@@ -140,7 +140,7 @@ const workExperiences = {
       date: "Oct 2023 – Present",
       desc: "Personalized education for optimized learning",
       descBullets: [
-        "Used the pytesseract library to extract questions from from scanned pdfs, setting the foundation for student's personalized learning plans."
+        "Leveraged the pytesseract library to meticulously extract questions from scanned PDFs, establishing the groundwork for tailoring personalized learning plans for students."
       ]
     },
     {
