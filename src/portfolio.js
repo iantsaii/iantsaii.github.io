@@ -44,7 +44,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "My skills",
+  title: "Skills",
   // subTitle: "Computer Science Student and Software Engineer who wants to make things that make a difference",
   skills: [
     emoji("⚡ Develop Frontend of Web Applications using Reactjs"),
@@ -173,40 +173,50 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  // subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/rEZcycleLogo.png"),
+      projectName: "Rezcycle",
+      projectDesc:
+        " A user-friendly web application that streamlines the recycling experience in Singapore.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit",
+          url: "https://rezcycle.vercel.app/"
+        },
+        {
+          name: "Video demo",
+          url: "https://drive.google.com/file/d/1APzYKuB_cXzmk44U_3lI0INJT1RR6uDU/view?usp=sharing"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/flipLogo.png"),
+      projectName: "Flip",
+      projectDesc:
+        "An app that facilitates effective bill-splitting among groups of friends.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Github",
+          url: "https://github.com/iantsaii/flip"
+        },
+        {
+          name: "Video",
+          url: "https://youtu.be/lHJSzvJwyRE"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -328,7 +338,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Say hi to me at tsai.ianfourre@u.nus.edu",
+  subtitle: "Say hi to me at",
   // number: "+92-0000000000",
   email_address: "tsai.ianfourre@u.nus.edu"
 };
